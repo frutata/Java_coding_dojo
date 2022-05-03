@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+<body>
+
+    <button><a href="/logout">Logout</a></button>
+    
+    <h1>Welcome, {{ user.first_name }}!</h1>
+
+    <h2>All Your Shows:</h2>
+
+    <table>
+
+        <thead>
+            <tr>
+                <th>Title</th>
+
+                <th>Network</th>
+
+                <th>Release Date</th>
+
+                <th>Actions</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+            {% for i in shows %}
+
+            <tr>
+
+                <td>{{ i.title }}</td>
+                <td>{{ i.network }}</td>
+                <td>{{ i.release_date.strftime("%b %d %Y") }}</td>
+                <td>
+                    <a href="/show/{{ i.id }}">Show</a> 
+                    {% if i.user_id == user.id %}
+                    <a href="/edit/{{ i.id }}">Edit</a> <a href="/show/delete/{{ i.id }}">Delete</a>
+                    {% endif %}
+                </td>
+
+            </tr>
+
+            {% endfor %}
+
+        </tbody>
+
+    </table>
+
+    <button><a href="/add">Add a Show</a></button>
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Show</title>
+</head>
+<body>
+
+    <button><a href="/dashboard">Home</a></button>
+
+    <button><a href="/logout">Logout</a></button>
+
+    <h1>Edit Show: {{ show.title }}</h1>
+
+    {% with messages = get_flashed_messages() %}
+    <!-- declare a variable called messages -->
+    {% if messages %}
+    <!-- check if there are any messages -->
+    {% for message in messages %}
+    <!-- loop through the messages -->
+    <p>{{message}}</p>
+    <!-- display each message in a paragraph tag -->
+    {% endfor %}
+    {% endif %}
+    {% endwith %}
+
+    <form action="/edit/show/{{ show.id }}", method="post">
+
+        <input type="hidden" name="id" value="{{ show.id }}">
+
+        <p>Title:
+            <input type="text" name="title" value="{{ show.title }}">
+        </p>
+
+        <p>Network:
+            <input type="text" name="network" value="{{ show.network }}">
+        </p>
+        
+        <p>Release Date:
+            <input type="date" name="release_date" value="{{ show.release_date }}">
+        </p>
+
+        <p>Description:</p>
+            <p><textarea name="description" cols="35" rows="4">{{ show.description }}</textarea></p>
+
+
+        <button type="submit">Update Show</button>
+
+    </form>
+
+</body>
+</html>

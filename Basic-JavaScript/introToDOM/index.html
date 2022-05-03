@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first Dom interaction</title>
+</head>
+<body>
+    <h1>Hello World</h1>
+    <p onmouseover="highlite(this)">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia corrupti reiciendis voluptatum, natus mollitia saepe? Pariatur dicta repellendus repellat possimus consequatur, commodi, quidem voluptatum facilis in, distinctio animi ducimus amet!</p>
+    <button onclick="hide(this)">remove Me</button>
+    <button onclick="myclick(this)">Click Me</button>
+    <script>
+        function myclick(something){
+            console.log(something)
+
+        }
+        function hide(something){
+            something.remove();
+        }
+
+        function highlite(something){
+            something.style.backgroundColor = "firebrick"
+        }
+    </script>
+
+</body>
+</html>
