@@ -1,0 +1,79 @@
+PlayVS - HS esports company
+    Employs non-local devs
+    Wants devs who can use React.js 
+    frontend (6+ years experience unfortunate)
+
+Twitch - streaming service
+
+Policygenius
+    online insurance marketplace
+    Javascript and React
+    2+ preferred so I could work with that
+
+Tinder
+    dating app
+    Java | Node.js 
+
+Saturn
+    calender
+    2+ years
+    React JS/JavaScript/HTML/CSS
+
+Unity
+    gaming company 
+    possible backend engineer | Java/Python
+
+CrunchyRoll
+    streaming service
+
+Versus Systems
+    gaming
+    React
+
+Ollie
+    dog food
+    2+ years Python/Flask/React
+
+Candy
+    Sports/Blockchain/gaming
+    HTML/CSS | React/Node/Next.js
+
+Soofa
+    tech infastructure 
+        Python/JavaScript
+
+GoDadady
+    helps entrpreneurs
+    HTML/CSS/JS
+
+Teikametrics
+    optimizes transactions
+    JavaScript/Node/Python/React
+
+Chewy
+    Pet company
+    NodeJS/React/Java
+
+ZoomInfo
+    helps companies improve profit growth
+    Java/Javascript/React/CSS/HTML
+
+bhvr
+    game development company
+    backend
+
+pokemon company
+    0-2 years of experience
+    Javascript/React
+
+BuildASoil
+    oil amendments suppliers
+    React/Node/MongoDB
+
+OtherFox
+    business-development focused tech solutions
+    JavaScript (1 year)
+
+Intercypse Inc
+    consulting
+    Java/JavaScript/React/MongoDB/React/MongoDB/MySQL
