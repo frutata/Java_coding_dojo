@@ -1,0 +1,15 @@
+actual picture of me and headline
+
+change capitalization of the list of skills i have in github and linkedin
+
+about section (in customer success and am now full stack dev) 4 years in customer success and now full stack dev
+customer success—>webdeveloper
+list techs you know you use
+list briefly some of your projects
+list things passionate about
+call to action ("reach out if you want to talk about whatever (things i'm passionate about)")
+
+experience section
+add experience section that says i'm a full stack dev working on projects
+
+
